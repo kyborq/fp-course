@@ -62,11 +62,10 @@ main = do
 ## 5. Список пирамидальных чисел Ферма. Колво чисел = 50
 
 ```hs
-pyramid x = if x <= 0 then 0 else x * pyramid (x - 1)
+pyramid n = n * (n + 1) `div` 2
 
-pyramids x = if x <= 0 then [] else pyramid x : pyramids (x - 1)
+pyramids x = [pyramid n | n <- [1..x]]
 
 main = do
-  let x = pyramids 50
-  print x
+  print (pyramids 50)
 ```
