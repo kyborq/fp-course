@@ -18,4 +18,9 @@ do_my_list(4) вернет [4,5,6,7]
 
 5. Найти сумму F(n)=∑i=1n (i) .#2
 
+![image](https://github.com/kyborq/fp-course/assets/52314985/3fce536f-113a-4939-8e09-166d671fafb0)
+
+
 6. Найти сумму F(n)=∑i=1n(n−i) .#2
+
+![image](https://github.com/kyborq/fp-course/assets/52314985/4062b69f-a5cc-4fa4-adcf-cd0b628d6f27)
