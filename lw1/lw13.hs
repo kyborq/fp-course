@@ -1,3 +1,5 @@
+module Main where
+
 oddNumbers1 x = [1, 3 .. (2 * x - 1)]
 
 oddNumbers2 x = if x <= 0 then [] else (2 * x - 1) : oddNumbers2 (x - 1)

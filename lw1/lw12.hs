@@ -1,3 +1,5 @@
+module Main where
+
 getSec x = head (tail x)
 
 getB x = tail (head x)

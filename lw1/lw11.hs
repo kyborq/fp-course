@@ -1,3 +1,5 @@
+module Main where
+
 getCh x = snd (fst x) 
 
 main = do
