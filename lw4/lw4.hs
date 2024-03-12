@@ -26,4 +26,11 @@ myLines str = go str ""
 
 main :: IO ()
 main = do
-  -- TODO: Do some tests
+  print ( myConcat [[1, 2, 3], [4, 5], [6]] )
+  print ( myFindKey 2 [(1, "one"), (2, "two"), (3, "three")] )
+  print ( myFindKey 4 [(1, "one"), (2, "two"), (3, "three")] )
+  print ( myMember 'a' "hello" )
+  print ( myMember 'e' "hello" )
+  print ( myIsUpper 'A' )
+  print ( myIsUpper 'a' )
+  print ( myLines "Hello\nWorld\n!" )
