@@ -1,4 +1,4 @@
-module LW4 (myConcat, findKey, myMember, myIsUpper, myLines) where
+module LW4 (myConcat, myFindKey, myMember, myIsUpper, myLines) where
 
 myConcat :: [[a]] -> [a]
 myConcat [] = []
